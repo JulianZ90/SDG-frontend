@@ -1,0 +1,77 @@
+.form-style-8{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+    background: linear-gradient(#6ACCCB,#6ACB9A);
+
+}
+
+.form-style-8 input[type="text"]
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+.form-style-8 input[type="button"]{
+
+}
+.form-style-8 input[type="button"]:hover,
+.form-style-8 input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+.userInput{
+    background: url("../images/human_email_icon.png") no-repeat scroll 7px 7px !important;
+    text-align: center !important;
+}
+.passwordInput{
+    background: url("../images/password_icon.png") no-repeat scroll 7px 7px !important;
+    text-align: center;
+}
+.bottomImages  {
+    display: block;
+    max-width: auto;
+    word-wrap:normal;
+    white-space:nowrap;
+}
+
+.loginButton{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.images {
+    display: inline;
+    vertical-align:middle;
+}
+
+.registrar{
+    margin-top: 10px;
+}
